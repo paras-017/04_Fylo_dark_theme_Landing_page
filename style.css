@@ -404,7 +404,7 @@ i {
   width: 440px;
   /* border: 1px solid red; */
   position: absolute;
-  top: 231rem;
+  top: 235rem;
   left: 0;
   right: 0;
 }
@@ -511,9 +511,9 @@ margin-top:2rem;
     right: 0;
   }
 
-.intro {
-  width: 500px;
-  height: 600px; 
+  .intro {
+    width: 500px;
+    height: 600px; 
 }
 .productive .right {
   margin: 5rem 0;
@@ -580,20 +580,20 @@ margin-top:2rem;
     font-size: 0.9rem;
   }
   .comment-box .comment{
-font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
 .early {
   width: 330px;
   position: absolute;
-  top: 228rem;
+  top: 223rem;
 }
 .early h1 {
   font-size: 1.2rem;
 }
 .early p {
   font-size: 0.85rem;
- max-width:100%;
+  max-width:100%;
 }
 .early-button input {
   width:100%;
@@ -623,6 +623,15 @@ font-size: 0.9rem;
   padding: 1rem 1.6rem;
 }
 }
+
+@media only screen and (max-width: 560px) and (min-width: 444px) {
+  .early {
+    width: 330px;
+    position: absolute;
+    top: 219em;
+  }    
+}
+
 @media only screen and (max-width: 1500px) and (min-width: 1100px) {
   .intro {
     width: 1100px;
